@@ -1,7 +1,8 @@
 /* main */
 main {
   background-color: #e8e3dc;
-  margin: 2vh 2vw;
+  margin: 2vh 1vw;
+  min-width: 96vw;
   padding: 5vh 5vw;
   border: 1px solid gray;
   border-radius: 10px;
@@ -54,7 +55,7 @@ main p {
   align-items: center;
 }
 .fa-lightbulb {
-  font-size: 10vw;
+  font-size: 15vw;
 }
 .fa-lightbulb:hover {
   transform: scale(1.5);
@@ -64,7 +65,8 @@ main p {
 .survey {
   border: 1px solid gray;
   border-radius: 10px;
-  min-width: 95vw;
+  margin: 0 1vw;
+  min-width: 96vw;
   margin-bottom: 2vh;
   background-color: #e8e3dc;
 }
@@ -77,6 +79,7 @@ main p {
   min-width: 20rem;
   min-height: 18.2rem;
 }
+
 .card-title {
   text-align: justify;
   font-size: 1.2rem;
@@ -84,4 +87,5 @@ main p {
 .card-text {
   font-size: 1rem;
   font-weight: normal;
+  margin-top: 10%;
 }
